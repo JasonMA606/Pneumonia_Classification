@@ -1,0 +1,2 @@
+xray_class_50_my_model.best.hdf5 filter=lfs diff=lfs merge=lfs -text
+xray_class_50_less_my_model.best.hdf5 filter=lfs diff=lfs merge=lfs -text
