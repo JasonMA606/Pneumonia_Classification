@@ -1,20 +1,19 @@
 # FDA  Submission
 
 **Your Name:**
-
+Zhicheng Ma
 **Name of your Device:**
-
+Pneumonia Detection Algorithm
 ## Algorithm Description 
 
 ### 1. General Information
 
 **Intended Use Statement:** 
-
+As a CADx devide to assist the radiologist in the detection of Penumonia.
 **Indications for Use:**
-
+The algorithm is indicated to used for people from 1 to 95 years old who have taken an Xray image in AP or PA position.
 **Device Limitations:**
-
-**Clinical Impact of Performance:**
+The algorithm does not work for people under 1-year-old or beyond 95 years old. The algorithm only works for Xray images were taken by AP or PA position.
 
 ### 2. Algorithm Design and Function
 
