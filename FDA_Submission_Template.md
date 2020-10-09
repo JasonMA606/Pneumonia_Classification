@@ -24,7 +24,7 @@ The algorithm does not work for people under 1-year-old or beyond 95 years old. 
 ### 2. Algorithm Design and Function
 
 <center>
-	<img src="img/Algorithm Flowchart.png">>
+	<img src="img/Algorithmflowchart.png">>
 </center>>
 
 **DICOM Checking Steps:**
@@ -41,7 +41,7 @@ The algorithm does not work for people under 1-year-old or beyond 95 years old. 
 **CNN Architecture:**
 
 <center>
-	<img src="img/CNN Architecture.png">
+	<img src="img/CNNArchitecture.png">
 </center>>
 
 ### 3. Algorithm Training
@@ -92,9 +92,9 @@ The algorithm does not work for people under 1-year-old or beyond 95 years old. 
 	9. Output Layer (1)
 
 <center>
-	<img src="img/training history accuarcy.png">
-	<img src="img/training history loss.png">
-	<img src="img/P-R curve.png">
+	<img src="img/traininghistoryaccuracy.png">
+	<img src="img/traininghistoryloss.png">
+	<img src="img/P-Rcurve.png">
 </center>
 
 **Final Threshold and Explanation:**
@@ -107,13 +107,13 @@ As the P-R plot above, I take 0.5 as my threshold. It is the most balanced value
 The dataset include people aged from 1 to 95.
 
 <center>
-	<img src="img/Age Dist.png">
+	<img src="img/AgeDist.png">
 </center>
 
 Including diseases:
 
 <center>
-	<img src="img/finding labels.png">
+	<img src="img/findinglabels.png">
 </center>
 
 And the corrlations among these diseases:
@@ -127,7 +127,7 @@ And the corrlations among these diseases:
 Contains 2288 rows of valid data, 1144 valid data contains Penumonia.
 
 <center>
-	<img src="img/training seq.png">
+	<img src="img/trainingseq.png">
 </center>
 
 **Description of Validation Dataset:** 
