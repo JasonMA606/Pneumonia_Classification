@@ -41,7 +41,7 @@ The algorithm does not work for people under 1-year-old or beyond 95 years old. 
 **CNN Architecture:**
 
 <center>
-	<img src="img/CNNArichitecture">
+	<img src="img/CNNArichitecture.png">
 </center>>
 
 ### 3. Algorithm Training
