@@ -41,7 +41,7 @@ The algorithm does not work for people under 1-year-old or beyond 95 years old. 
 **CNN Architecture:**
 
 <center>
-	<img src="img/CNNArchitecture.png">
+	<img src="img/CNNArichitecture">
 </center>>
 
 ### 3. Algorithm Training
@@ -144,7 +144,3 @@ Labeled by experienced radiologists.
 
 From 1 year old to 95 years old. 
 Male : Female = 1.41 : 1
-
-**Ground Truth Acquisition Methodology:**
-
-**Algorithm Performance Standard:**
