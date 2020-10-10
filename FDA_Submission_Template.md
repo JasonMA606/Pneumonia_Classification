@@ -20,6 +20,8 @@ The algorithm is indicated to used for people from 1 to 95 years old who have ta
 **Device Limitations:**
 
 The algorithm does not work for people under 1-year-old or beyond 95 years old. The algorithm only works for Xray images were taken by AP or PA position.
+The algorithm provides a high specificity which is 0.875 and the recall is 0.5. That indicates the algorithm rarely made mistake in False Positive.
+So, if the algorithm said a patient has Pneumonia, the patient has a great chance of having Pneumonia.
 
 ### 2. Algorithm Design and Function
 
@@ -142,5 +144,28 @@ Labeled by experienced radiologists.
 
 **Patient Population Description for FDA Validation Dataset:**
 
-From 1 year old to 95 years old. 
-Male : Female = 1.41 : 1
+**The ideal dataset would be: **
+* Age Range: 1 - 95
+* Gender Distribution: Male : Female = 1.41 : 1
+* Imaging Modality: Digital Radiography
+* Body Parts Examined: Chest
+* Prevalence of Pneumonia: 20% patients contain Pneumonia among the total testing dataset.
+* Other Diseases Distribution: As the plot below:
+
+<center>
+	<img src="img/findinglabels.png">
+</center> 
+
+**Ground Truth Acquisition Methodology:**
+
+Voting system across several radiologists OR weighted across several radiologists' training levels.
+
+**Algorithm Performance Standard:**
+
+Using F1 score as algorithm performance standard.
+The performace of the algorithm is: 
+
+<center>
+	<img src="img/F1.png">
+</center>>
+
