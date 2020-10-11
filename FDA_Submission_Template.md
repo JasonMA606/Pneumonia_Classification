@@ -163,7 +163,7 @@ Voting system across several radiologists OR weighted across several radiologist
 **Algorithm Performance Standard:**
 
 Using F1 score as algorithm performance standard.
-The performance standard of the algorithm oriented from a paper<sup>1</sup> post in 2017 is 0.387.
+The performance standard of the algorithm oriented from CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning<sup>1</sup> post in 2017 is 0.387.
 The performace of my algorithm is: 
 
 <center>
