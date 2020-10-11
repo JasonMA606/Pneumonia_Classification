@@ -163,9 +163,13 @@ Voting system across several radiologists OR weighted across several radiologist
 **Algorithm Performance Standard:**
 
 Using F1 score as algorithm performance standard.
-The performace of the algorithm is: 
+The performance standard of the algorithm oriented from a paper<sup>1</sup> post in 2017 is 0.387.
+The performace of my algorithm is: 
 
 <center>
 	<img src="img/F1.png">
 </center>>
 
+**References**
+
+Pranav Rajpurkar, Jeremy Irvin, Kaylie Zhu, Brandon Yang, Hershel Mehta, Tony Duan, Daisy Ding, Aarti Bagul, Robyn L. Ball, Curtis Langlotz, Katie Shpanskaya, Matthew P. Lungren, Andrew Y. Ng. CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning. *arXiv:1711.05225v3 [cs.CV] 25 Dec 2017*
